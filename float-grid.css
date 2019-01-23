@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+ 
+.container{
+    padding: 2px 16px;
+}
+
+.row {
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    /* Clearfix */
+.row::before,
+.row::after {
+    display: table;
+    content: '';
+}
+.row::after {
+    clear: both;
+}
+.col-3, .col-4, .col-6, .col-9, .col-12 {
+    float: left;
+    padding-left: 1.04166666%;
+    padding-right: 1.04166666%;
+}
+    /* Mobile defaults */
+.col-3, .col-4, .col-6, .col-9, .col-12 {
+    width: 100%;
+}
+    
+    /* For Mobile Phones */
+    /* Anything < 640px, the code applies */
+@media only screen and (max-width: 640px) {
+    /* 3 columns, 3/12 in % */
+    .col-3 {
+        width: 25%;
+    }
+        /* 4 columns, 4/12 in % */
+    .col-4 {
+        width: 33.333333%;
+    }
+        /* 6 columns, 6/12 in % */
+    .col-6 {
+        width: 50%;
+    }
+    /* 9 columns */
+    .col-9{
+        width: 75%
+    }
+        /* 12 columns, 12/12 in % */
+    .col-12 {
+        width: 100%;
+    }
+
+    html{
+        background-size: 150%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .map-location {
+        background-size: 25%;
+    }
+
+    .invit-ims {
+        background-size: 35%;
+    }
+
+    .coteam-img {
+        background-size: 22%;
+    }
+}
+
+/* Anything above 640px */
+@media only screen and (min-width: 641px) {
+    .map-location {
+        background-size: 12%;
+    }
+
+    .invit-ims {
+        background-size: 17%;
+    }
+
+    .coteam-img {
+        background-size: 12%;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+}

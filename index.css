@@ -1,0 +1,254 @@
+
+html {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: rgb(240, 236, 241)
+}
+
+body{
+    margin: 0;
+}
+
+/* All-around uses */
+.arsenal-font {
+    font-family: 'Arsenal', sans-serif;
+}
+
+img {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(51,51,51);
+    text-align: center;
+}
+
+p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(51,51,51);
+    word-break: break-word;
+}
+
+hr {
+    width: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* =========================== */
+
+/* Header */
+.title-background-wrapper {
+    padding: 0 0 5em 0;
+    background-image: url("./img/top-render3.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    height: 65em;
+    background-position: center;
+}
+
+header{
+    margin-top: 1em;
+}
+
+.title {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.text-wrapper {
+    padding: 5px 0
+}
+
+.name {
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px;
+    color: white
+}
+
+.headline {
+    margin: 10px 0;
+    font-style: italic;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px 8px;
+    color: white;
+    font-size: 16px;
+    transition: transform .4s;
+}
+
+li:hover {
+    transform: scale(1.1);
+    
+}
+
+li:active{
+    color: lightgrey;
+}
+
+.top-line{
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 68px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 1.06;
+    letter-spacing: 1.9px;
+}
+
+.bio-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bio-wrapper{
+    text-align: center;
+}
+
+.badge {
+    text-align: center;
+}
+
+/* ====================== */
+
+/* Project Section */
+.project-headline {
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.white {
+    color: white;
+}
+.tech-used {
+    font-weight: bold;
+    color: rgb(21,138,208)
+}
+
+section {
+    margin: 50px 0px
+}
+
+.image-section{
+    max-width: 900px;
+    margin: 0 auto;
+    transition: transform .4s;
+}
+
+.image-section:hover {
+    transform: scale(1.02)
+}
+
+img {
+    width: 100%;
+}
+
+.desc-section{
+    max-width: 450px;  
+    margin: 2px auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 25px 20px;
+    background-image:linear-gradient(to bottom right, rgba(21, 16, 36, 1), rgba(21, 16, 36, 0.9), rgba(21, 16, 36, 0.8), rgba(21, 16, 36, 0.7));
+}
+
+.desc-section > h1 {
+    text-align: center;
+}
+
+.desc-wrapper {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.map-location {
+    background-image: url('./img/map-location.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.invit-ims{
+    background-image: url('./img/invit-ims.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.coteam-img {
+    background-image: url('./img/group.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.white {
+    color: white;
+}
+
+.link-wrapper {
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+   
+    
+}
+
+.github-link {
+    text-decoration: none;
+}
+
+.link-wrapper > p{
+    color: #151024;
+    font-weight: bold;
+    transition: transform .4s;
+    padding: 15px;
+}
+
+.link-wrapper > p:hover {
+    transform: scale(1.04);
+}
+/* ================== */
+
+/* Contact Form */
+.contact-background-wrapper {
+    padding: 25px 0 0 0;
+    background-image:linear-gradient(to bottom right, rgba(21, 16, 36, 1), rgba(21, 16, 36, 0.9), rgba(21, 16, 36, 0.8), rgba(21, 16, 36, 0.7));
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+}
+
+.contact-form{
+    text-align: center;
+    margin: 5px auto;
+}
+/* ========================= */
+
+/* Footer */
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 51,51);
+    text-align: center;
+}
+
+footer > p {
+    font-size: 14px;
+    padding-top: 15px;
+    color: white;
+}
+
+
+
+
