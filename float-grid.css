@@ -34,7 +34,7 @@
     
     /* For Mobile Phones */
     /* Anything < 640px, the code applies */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 910px) {
     /* 3 columns, 3/12 in % */
     .col-3 {
         width: 25%;
@@ -77,20 +77,24 @@
     }
 
     .map-location {
-        background-size: 25%;
+        background-size: 10%;
     }
 
     .invit-ims {
-        background-size: 35%;
+        background-size: 10%;
     }
 
     .coteam-img {
-        background-size: 22%;
+        background-size: 10%;
+    }
+
+    section {
+        flex-direction: column;
     }
 }
 
 /* Anything above 640px */
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 911px) {
     .map-location {
         background-size: 12%;
     }
